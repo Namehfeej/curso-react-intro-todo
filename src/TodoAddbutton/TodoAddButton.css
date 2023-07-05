@@ -1,0 +1,26 @@
+.CreateAddButton {
+    background-color: #0ace8c;
+    box-shadow: 0px 5px 25px #a1f8b5;
+    border: none;
+    cursor: pointer;
+    font-size: 46px;
+    position: fixed;
+    bottom: 4px;
+    right: 24px;
+    font-weight: bold;
+    color: #034e03;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    height: 64px;
+    width: 64px;
+    z-index: 1;
+    border-radius: 40px;
+
+    transform: rotate(1);
+    transition: 0.3s ease-in-out;
+}
+
+.CreateAddButton:hover {
+    transform: rotate(224deg);
+}

@@ -1,0 +1,25 @@
+.TodoSearch {
+    background: #a8fcaf;
+    border-radius: 2px;
+    border: 2px solid #132a13;
+    margin: 0 24px;
+    height: 64px;
+    width: calc(100% - 62px);
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Arsenal';
+    font-weight: 400;
+    color: #132a13;
+    box-shadow: 0px 5px 16px #132a13;
+}
+
+.TodoSearch::placeholder {
+    color: #132a13;
+    font-family: 'Arsenal';
+    font-weight: 400;
+}
+
+.TodoSearch:focus {
+    outline-color: #132a13;
+}
+
